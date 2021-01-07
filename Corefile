@@ -1,9 +1,9 @@
-.:1053 {
+.:53 {
   auto {
-    directory /coreDNS/dns-zones.git/zones/ (.+)\.zone {1}
+    directory /coreDNS/coredns-zones.git/zones/ (.+)\.zone {1}
     reload 60s
   }
-  forward . 8.8.8.8 4.4.8.8
+  forward . 8.8.8.8 8.8.4.4
   # prometheus     # enable metrics
   errors         # show errors
   log            # enable query logs
