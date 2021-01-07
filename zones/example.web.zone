@@ -1,0 +1,8 @@
+@	IN	SOA	master.example.webo admin\.master.example.web (
+	2020121601	; serial
+	86400		; refresh
+	7200		; retry
+	3600000	    ; expire
+	1750		; minimum
+)
+dashboard IN A 1.2.3.4
