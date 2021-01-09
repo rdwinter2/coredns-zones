@@ -1,8 +1,11 @@
-@	IN	SOA	master.example.webo admin\.master.example.web (
-	2020121601	; serial
-	86400		; refresh
-	7200		; retry
-	3600000	    ; expire
-	1750		; minimum
+$ORIGIN example.web.
+@	IN	SOA	coredns.example.web. zone-admin.example.web. (
+	2020121601	; serial number
+	3600		; time to refresh
+	600 		; time to retry
+	604800 	    ; time to expire
+	1800		; minimum TTL
 )
-dashboard IN A 1.2.3.4
+instance-1      IN A 192.168.90.254
+subordinate-ca  IN A 192.168.90.254
+traefik         IN A 192.168.90.254
