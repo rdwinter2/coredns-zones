@@ -10,4 +10,5 @@ instance-1      IN A 192.168.90.254
 subordinate-ca  IN A 192.168.90.254
 traefik         IN A 192.168.90.254
 nexus           IN A 192.168.90.254
+repo            IN A 192.168.90.254
 gitlab          IN A 192.168.90.254
