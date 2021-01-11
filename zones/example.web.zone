@@ -6,9 +6,9 @@ $ORIGIN example.web.
 	604800 	    ; time to expire
 	1800		; minimum TTL
 )
-instance-1      IN A 192.168.90.254
-subordinate-ca  IN A 192.168.90.254
-traefik         IN A 192.168.90.254
-nexus           IN A 192.168.90.254
-repo            IN A 192.168.90.254
-gitlab          IN A 192.168.90.254
+instance-1      IN A 127.0.0.1
+subordinate-ca  IN A 127.0.0.1
+traefik         IN A 127.0.0.1
+nexus           IN A 127.0.0.1
+repo            IN A 127.0.0.1
+gitlab          IN A 127.0.0.1
