@@ -1,6 +1,6 @@
 $ORIGIN example.web.
 @	IN	SOA	coredns.example.web. zone-admin.example.web. (
-	2021011207	; serial number
+	2021012311	; serial number
 	3600		; time to refresh
 	600 		; time to retry
 	604800 	    ; time to expire
