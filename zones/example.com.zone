@@ -1,6 +1,6 @@
-$ORIGIN example.web.
-@	IN	SOA	coredns.example.web. zone-admin.example.web. (
-	2021012311	; serial number
+$ORIGIN example.com.
+@	IN	SOA	coredns.example.com. zone-admin.example.com. (
+	2021082919	; serial number
 	3600		; time to refresh
 	600 		; time to retry
 	604800 	    ; time to expire
